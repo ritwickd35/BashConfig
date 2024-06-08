@@ -1,4 +1,4 @@
-Bash Config backup
+## Bash Config backup
 
 Using:
 1. Alacritty
