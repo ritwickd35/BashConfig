@@ -33,9 +33,6 @@ bindkey '^[[B' history-search-forward
 # Adding Anaconda bin directory to PATH
 export PATH=$PATH:/Users/ritwickdas/anaconda3/bin
 
-# # Adding Anaconda condabin directory to PATH
-# # export PATH=$PATH/Library/apache-jmeter-5.6.3/bin
-
 # Adding Anaconda condabin directory to PATH
 export PATH=$PATH:/Users/ritwickdas/anaconda3/condabin
 
@@ -48,6 +45,8 @@ export PATH=$PATH:/Users/ritwickdas/.pyenv/bin
 # Adding JMeter bin directory to PATH
 export PATH=$PATH:/Library/apache-jmeter-5.6.3/bin
 
+# Export JMeter path as variable
+export JMETER=/Library/apache-jmeter-5.6.3/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
